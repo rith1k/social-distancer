@@ -1,0 +1,119 @@
+.nav-item a {
+  font-weight: bolder;
+  color: black !important;
+}
+.btn .gr, .trt {
+  display: inline;
+  font-size: 22px;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+.try{
+  background-color:white !important;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  border: black solid 2px;
+  
+
+}.try1{
+background-color: #fff;
+} 
+
+#abc {
+  width: 100%;
+  height: 94%;
+  position: relative;
+}
+.nav-link:hover {
+  cursor: pointer;
+}
+.bttn {
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  color: white;
+  font-weight: 22px;
+}
+
+#abc:after {
+  width: 100%;
+  height: 100%;
+
+  background: black;
+  opacity: 0.45;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  content: "";
+}
+#img {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  display: block;
+  padding: 2px;
+  box-shadow: 0px 2px 5px 4px #01baef !important;
+}
+
+.tet {
+  font-size: 22px;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.gallery {
+  border: black 2px solid;
+  background-color: white;
+  border-radius: 1cm;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.gallery.pop {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.gallery figure {
+  -ms-flex-preferred-size: 33.333%;
+  flex-basis: 33.333%;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.gallery figure img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.gallery figure figcaption,
+.gallery figure div {
+  display: none;
+  color: #20bf55;
+}
+

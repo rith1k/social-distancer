@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Home </title>
+	<link rel="stylesheet" href="file.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="client.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!------ Include the above in your HEAD tag ---------->
+	
+	
+			<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet"> 
+			<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body id="a" style="background:url('main2.jpg');">
+
+	<nav class="navbar navbar-expand-lg navbar-light"
+		style="background-color: #20bf55;    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+			aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+			<a class="navbar-brand" onclick="home()"><img src="logo.png" width="35%" height="35%"
+					class="d-inline-block align-top" alt=""> </a>
+			<ul class="navbar-nav  mt-2 mt-lg-0">
+				<li class="nav-item active mr-3">
+					<a class="nav-link" onclick="home()">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item mr-3">
+					<a class="nav-link" onclick="explore()">Explore!</a>
+				</li>
+				<li class="nav-item mr-3">
+					<a class="nav-link" onclick="upload()">Upload a photo!</a>
+				</li>
+				<li class="nav-item mr-3">
+				</li>
+
+			</ul>
+			<div class="form-inline my-2 my-lg-0 mr-3 ml-5">
+				<input class="form-control mr-sm-2 mr-3 ml-5" id="hell" type="search" style="width: 260px;"
+					placeholder="Search" aria-label="Search">
+				<button class="btn btn-light my-2 my-sm-0" onclick="search()" onclick="search()"><i
+						class="fa gr fa-search"></i></button>
+			</div>
+			<ul class="navbar-nav ml-5 pl-5"
+				style="padding: 0% !important; padding-right:0 !important; margin-right:0 !important; margin-left: 80px !important; ">
+				<li class="nav-item dropdown" id="lg">
+					<a class="nav-link" onclick="signup()" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> Account </a> </li>
+			</ul>
+
+		</div>
+	</nav>
+
+	<div class="card m-5" style="border: solid black 2px;">
+		<center>
+			<h1>Welcome to Social Distancer!</h1>
+			<br><img src="logo.png" alt="">
+			<br><br><br>
+			<h3>Immerse yourself into amazing posts available on this website,<br> and do your self-quarantine things,
+				and follow up on challenges!
+				<br>
+				Make sure to stay home, stay safe.
+
+			</h3>
+			<a class="btn btn-light m-5" style="border:black solid 2px;" onclick="upload()">
+				<div class="gr">Make your first post now!</div>
+			</a>
+		</center>
+	
+	</div>
+
+</body>
+
+</html>
